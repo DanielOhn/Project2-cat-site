@@ -1,0 +1,39 @@
+.content {
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.error h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+.cat {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  overflow: none;
+}
+
+.cat {
+  width: 35em;
+  height: auto;
+}
+
+.cat img {
+  width: inherit;
+  height: auto;
+}
+
+
+button {
+  background-color: #957964;
+  border: none;
+  color: #603140;
+  font-size: 16px;
+  padding: 12px 24px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
