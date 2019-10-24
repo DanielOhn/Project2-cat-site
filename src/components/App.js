@@ -10,7 +10,7 @@ function App() {
     setCat()
     setError()
 
-    fetch('http://aws.random.cat/meow')
+    fetch('https://aws.random.cat/meow')
       .then(res => res.json())
       .then(res => setCat(res))
       .catch(e => setError(e.message))
